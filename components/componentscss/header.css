@@ -1,0 +1,33 @@
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 138px;
+    position: relative;
+    
+    
+   }
+
+   #nav-header {
+
+    position: inherit;
+    top: -70px;
+
+   }
+
+    #nav-header ul {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    align-items: center;
+    
+
+}
+
+#nav-header ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
