@@ -5,7 +5,9 @@
 
 body {
 
-    background-image: url(/components/img/fundoLP-HOME.png);
+    background-image: url(/components/img/FUNDO-HOME-LP.jpg);
+	background-repeat: no-repeat;
+
 
 }
 
