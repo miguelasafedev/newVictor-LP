@@ -15,8 +15,6 @@
   text-align: center;
 }
 
-
-
 .item img {
   width: 60px;
   margin-bottom: 16px;
@@ -50,6 +48,21 @@
 
 }
 
+.carrossel-container {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.carrossel {
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+}
+
 .card-services {
   width: 342px;
   height: 390px;
@@ -68,7 +81,7 @@
 
 .card-services img {
 
-    width: 300px;
+    width: 320px;
     height: 200px;
     object-fit: cover;  /* mantém proporção sem deformar */
     border-radius: 26px;
@@ -98,3 +111,50 @@
 
 }
 
+.btn-right {
+  width: 39px;
+  height: 39px;
+  background-color: #DFE2E0;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* sombra suave */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-right:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-right img {
+  width: 16px; /* ou ajuste conforme o SVG */
+  height: 16px;
+}
+
+.btn-left {
+  width: 39px;
+  height: 39px;
+  background-color: #DFE2E0;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* sombra suave */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-left:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-left img {
+  width: 16px; /* ou ajuste conforme o SVG */
+  height: 16px;
+}
