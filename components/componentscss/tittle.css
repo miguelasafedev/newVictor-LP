@@ -1,0 +1,28 @@
+.tittle {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    color: #495943;
+    padding-top: 76px;
+
+}
+
+.sub-tittle {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #495943;
+    margin-top: 30px;
+
+}
+
+.tittle-box {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}

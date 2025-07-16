@@ -40,3 +40,61 @@
     color: #495943;
     line-height: 1.6;
 }
+
+.fundo-com-imagem {
+
+    background-image: url(/components/img/fundo\ serviço01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-services {
+  width: 342px;
+  height: 390px;
+  background-color: #DFE2E0;
+  border-radius: 26px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card-services:hover {
+  transform: translateY(-5px);
+}
+
+.card-services img {
+
+    width: 300px;
+    height: 200px;
+    object-fit: cover;  /* mantém proporção sem deformar */
+    border-radius: 26px;
+    display: block;    /* remove espaços indesejados */
+    margin: 0 auto; 
+    margin-bottom: 10px;
+
+}
+
+.card-services h3 {
+
+    font-size: 28px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    color: #495943;
+    margin-bottom: 15px;
+
+}
+
+.card-services p {
+
+    font-size: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    color: #495943;
+    margin-bottom: 10px;
+
+}
+
