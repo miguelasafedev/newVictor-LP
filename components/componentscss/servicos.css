@@ -73,6 +73,7 @@
   padding: 20px;
   margin: 10px;
   transition: transform 0.3s ease;
+  margin-bottom: 215px;
 }
 
 .card-services:hover {
@@ -123,6 +124,8 @@
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 200px;
+
 }
 
 .btn-right:hover {
@@ -147,6 +150,7 @@
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 200px;
 }
 
 .btn-left:hover {
