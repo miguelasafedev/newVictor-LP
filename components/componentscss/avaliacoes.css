@@ -6,3 +6,64 @@
     flex-direction: column;
 
 }
+
+.faixa-avaliacoes {
+  background-color: #fff;
+  width: 100%; 
+  height: 228px;
+  padding: 45px 0; 
+
+}
+
+.fundo-avaliacoes {
+
+    background: linear-gradient(90deg, #8A967E, #495943); 
+    width: 100%;
+    height: 1080px;
+
+}
+
+.card-avaliacoes {
+  width: 380px;
+  height: 380px;
+  background-color: #DFE2E0;
+  border-radius: 30px;
+  box-shadow: 0 15px 60px black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  margin-bottom: 215px;
+}
+
+.card-avaliacoes img {
+
+    padding-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.card-avaliacoes h1 {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #495943;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 5px 0 0 0;
+
+}
+
+.card-avaliacoes p {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #495943;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+
+.card-avaliacoes:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 60px black;
+}
