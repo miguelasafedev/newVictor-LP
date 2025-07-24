@@ -23,6 +23,18 @@
 
 }
 
+.grid-avaliacoes {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas fixas */
+  gap: 30px 40px; /* espaço entre os cards (linhas x colunas) */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 0;
+
+}
+
+
 .card-avaliacoes {
   width: 380px;
   height: 380px;
@@ -31,9 +43,8 @@
   box-shadow: 0 15px 60px black;
   text-align: center;
   padding: 20px;
-  margin: 10px;
   transition: transform 0.3s ease;
-  margin-bottom: 215px;
+
 }
 
 .card-avaliacoes img {
