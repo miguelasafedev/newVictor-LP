@@ -7,17 +7,20 @@
   align-items: center;
   padding-left: 180px;
   box-sizing: border-box;
+  
 }
 
 .contatos-texto {
   max-width: 600px;
   color: white;
+  margin-left: 180px;
 }
 
 .contatos-texto img {
     object-fit: cover;
     position: absolute;
-    top: -10px;
+    top: 4650px;
+    left: 290px;
   
 }
 
@@ -26,6 +29,8 @@
   font-size: 45px;
   font-weight: 500;
   margin-bottom: 20px;
+  margin-top: 170px;
+  
 }
 
 .contatos-texto p {
@@ -56,11 +61,35 @@
     text-align: center;
 }
 
+.button-footer:hover {
+
+transform: scale(1.05); /* Efeito de leve aumento no hover */
+
+}
+
 .contatos-imagem img {
   width: 475px;
   height: 715px;
-  object-fit: contain;
-  position: absolute;
+  object-fit: cover;
+  position: relative;
   top: -94px;
   margin-right: 200px;
+}
+
+.little-footer {
+
+background-color: #1A2019;
+width: 100%;
+height: 160px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.little-footer h1 {
+
+  color: #fff;
+  font-size: 20px;
+
 }
