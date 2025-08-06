@@ -24,12 +24,16 @@
     <link rel="stylesheet" href="components/componentscss/avaliacoes.css">
     <link rel="stylesheet" href="components/componentscss/sobre.css">
     <link rel="stylesheet" href="components/componentscss/footer.css">
+    <link rel="stylesheet" href="components/componentscss/mobile.css">
 
 </head>
 <body>
     <header>
   <div id="logo-home">
+    <picture>
+        <source media="(max-width: 390px)" srcset="/components/img/Logo Victor Centro.svg">
     <img src="./components/img/Logo Victor Branco e Verde.svg" alt="Logo" class="logo-home-class">
+    </picture>
   </div>
   <nav id="nav-header">
     <ul>
@@ -49,8 +53,8 @@
     <img src="./components/img/Logo Victor Branco e Verde.svg" alt="Logo" class="logo-home">
 
     <div class="text-content">
-      <h1>Reabilitando Vidas</h1>
-      <p>Sempre será um bom dia <br> para reabilitar vidas!</p>
+      <h1>Reabilitando <br class="quebra-responsiva">Vidas</h1>
+      <p>Sempre será um bom <br class="quebra-responsiva">dia <br class="quebra-none-moba"> para reabilitar <br class="quebra-responsiva">vidas!</p>
     </div>
 
     <a href="https://api.whatsapp.com/send/?phone=5571986220220" target="_blank" class="button-home">

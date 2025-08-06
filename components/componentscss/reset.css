@@ -8,7 +8,11 @@ body {
     background-image: url(../img/fundo-home-lp.jpg);
 	background-repeat: no-repeat;
 
+	
+}
 
+.quebra-responsiva {
+display: none;
 }
 
 html, body, div, span, applet, object, iframe,
