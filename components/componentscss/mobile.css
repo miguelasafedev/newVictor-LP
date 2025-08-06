@@ -326,5 +326,146 @@ display: none;
   margin-top: 1rem; /* sem valores negativos! */
 }
 
+.faixa-conteudo-avaliacoes h1 {
+
+  text-align: center;
+  font-size: 22px;
+
+}
+
+.faixa-conteudo-avaliacoes h2 {
+
+  text-align: center;
+  font-size: 16px;
+
+}
+
+.card-avaliacoes {
+  width: 135px;
+  height: 145px;
+  background-color: #DFE2E0;
+  border-radius: 30px;
+  box-shadow: 0 15px 60px black;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s ease;
+
+}
+
+.card-avaliacoes img {
+
+    height: 25px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+    
+}
+
+.card-avaliacoes h1 {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #495943;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 3px 0 0 0;
+
+}
+
+.card-avaliacoes p {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #495943;
+    font-size: 6px;
+    font-weight: 500;
+
+}
+
+.estrelas-moba {
+
+  width: 80px;
+
+}
+
+
+.grid-avaliacoes {
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas fixas */
+  gap: 20px 20px; /* espaço entre os cards (linhas x colunas) */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.fundo-avaliacoes {
+
+    background: linear-gradient(90deg, #8A967E, #495943); 
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sobre {
+
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title-sobre h1{
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #495943;
+    padding-top: 76px;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+.title-sobre p {
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #495943;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+
+.sobre-box {
+
+    margin-left: 0px;
+    background: linear-gradient(135deg, #DFE2E0 0%, #84957E 70%);
+    width: 334px;
+    height: 330px;
+    border-radius: 10px;
+    border-top-left-radius: 253px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 250px;
+
+}
+
+.sobre-box img {
+
+position: relative;
+top: -116px;
+object-fit: cover;
+width: 450px;
+height: 446px;
+   
+}
+
 }
 
