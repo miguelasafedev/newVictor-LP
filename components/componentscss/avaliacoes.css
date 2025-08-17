@@ -35,8 +35,21 @@
 
 }
 
+@keyframes surgir {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
 .card-avaliacoes {
+  
+  animation: surgir 0.6s ease;
+  display: block;
   width: 380px;
   height: 380px;
   background-color: #DFE2E0;
@@ -47,6 +60,15 @@
   transition: transform 0.3s ease;
 
 }
+
+.card-avaliacoes-off {
+  
+
+  display: none; /* mantém fora do layout */
+
+}
+
+
 
 .card-avaliacoes img {
 
