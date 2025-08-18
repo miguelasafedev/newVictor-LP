@@ -54,7 +54,7 @@
   height: 380px;
   background-color: #DFE2E0;
   border-radius: 30px;
-  box-shadow: 0 15px 60px black;
+  box-shadow: 0 5px 20px black;
   text-align: center;
   padding: 20px;
   transition: transform 0.3s ease;
@@ -91,7 +91,7 @@
 
     font-family: "Montserrat Alternates", sans-serif;
     color: #495943;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 500;
 
 }
@@ -99,5 +99,5 @@
 
 .card-avaliacoes:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 60px black;
+  box-shadow: 0 8px 22px black;
 }
