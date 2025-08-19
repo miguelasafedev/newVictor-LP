@@ -208,7 +208,7 @@ transform: scale(0.95);
 
 .card-services {
   width: 290px;
-  height: 390px;
+  height: 420px;
   background-color: #DFE2E0;
   border-radius: 26px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -280,6 +280,13 @@ display: none;
   height: 16px;
 }
 
+.carrossel-buttons {
+
+  display: flex;
+
+
+}
+
 .card-services img {
 
     width: 270px;
@@ -294,7 +301,7 @@ display: none;
 
 .card-services h3 {
 
-    font-size: 28px;
+    font-size: 13px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     color: #495943;
@@ -304,7 +311,7 @@ display: none;
 
 .card-services p {
 
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     color: #495943;
@@ -314,7 +321,7 @@ display: none;
 
 .carrossel-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
@@ -341,13 +348,13 @@ display: none;
 }
 
 .card-avaliacoes {
-  width: 135px;
-  height: 145px;
+  width: 155px;
+  height: 195px;
   background-color: #DFE2E0;
   border-radius: 30px;
   box-shadow: 0 1px 15px black;
   text-align: center;
-  padding: 15px;
+  padding: 8px;
   transition: transform 0.3s ease;
 
 }
@@ -362,7 +369,7 @@ display: none;
 .card-avaliacoes img {
 
     height: 25px;
-    padding-top: 5px;
+    padding-top: 3px;
     margin-bottom: 4px;
     
 }
@@ -381,7 +388,7 @@ display: none;
 
     font-family: "Montserrat Alternates", sans-serif;
     color: #495943;
-    font-size: 6px;
+    font-size: 8px;
     font-weight: 500;
 
 }
@@ -528,6 +535,8 @@ height: 446px;
   font-size: 14px;
 
 }
+
+
 
 }
 
