@@ -223,9 +223,22 @@ transform: scale(0.95);
   transform: translateY(-5px);
 }
 
-#card-display-none {
+.card-services-off {
 
 display: none;
+opacity: 0;
+transform: translateY(20px);
+pointer-events: none;
+
+}
+
+#card-services-offmoba {
+
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+
 
 }
 
@@ -241,7 +254,7 @@ display: none;
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
 }
 
@@ -267,7 +280,7 @@ display: none;
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .btn-left:hover {
@@ -321,7 +334,7 @@ display: none;
 
 .carrossel-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
