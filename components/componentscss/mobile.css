@@ -207,13 +207,13 @@ transform: scale(0.95);
 }
 
 .card-services {
-  width: 95px;
-  height: 200px;
+  width: 80px;
+  height: 195px;
   background-color: #DFE2E0;
-  border-radius: 26px;
+  border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
   text-align: center;
-  padding: 20px;
+  padding: 12px;
   margin: 0px;
   transition: transform 0.3s ease;
   margin-bottom: 30px;
@@ -302,18 +302,12 @@ pointer-events: none;
 
 .card-services img {
 
-    width: 100px;
-    height: 90px;
-    object-fit: cover;  /* mantém proporção sem deformar */
-    border-radius: 16px;
-    display: block;    /* remove espaços indesejados */
-    margin: 0 auto; 
-    margin-bottom: 10px;
+    display: none;
 
 }
 .card-services h2 {
 
-    font-size: 10px;
+    font-size: 9px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     color: #495943;
@@ -323,17 +317,13 @@ pointer-events: none;
 
 .card-services h3 {
 
-    font-size: 6px;
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 600;
-    color: #495943;
-    margin-bottom: 6px;
+    display: none;
 
 }
 
 .card-services p {
 
-    font-size: 6px;
+    font-size: 8px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     color: #495943;
