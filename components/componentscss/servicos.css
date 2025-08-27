@@ -96,13 +96,13 @@
 
 .card-services img {
 
-    width: 320px;
-    height: 200px;
-    object-fit: cover;  /* mantém proporção sem deformar */
-    border-radius: 26px;
-    display: block;    /* remove espaços indesejados */
-    margin: 0 auto; 
-    margin-bottom: 10px;
+  width: 320px;
+  height: 200px;
+  object-fit: cover;  /* mantém proporção sem deformar */
+  border-radius: 26px;
+  display: block;    /* remove espaços indesejados */
+  margin: 0 auto; 
+  margin-bottom: 10px;
 
 }
 
