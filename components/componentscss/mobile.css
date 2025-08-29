@@ -69,6 +69,12 @@ display:  none;
 
 }
 
+.fundo-com-imagem {
+
+  width: 100%;
+
+}
+
 .victor-home {
 
     position: absolute;
@@ -503,6 +509,12 @@ body {
 
   overflow-y: auto;
   overflow-x: hidden;
+
+}
+
+html {
+
+width: 100%;
 
 }
 
