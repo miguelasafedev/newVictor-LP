@@ -501,6 +501,7 @@ height: 446px;
 
 body {
 
+  overflow-y: auto;
   overflow-x: hidden;
 
 }
