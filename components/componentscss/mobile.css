@@ -505,18 +505,13 @@ height: 446px;
 
 }
 
-body {
-
-  overflow-y: auto;
-  overflow-x: hidden;
-
-}
-
-html {
-
-width: 100%;
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
 
 }
+
+
 
 
 
