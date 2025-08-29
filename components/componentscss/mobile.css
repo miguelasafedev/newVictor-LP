@@ -499,6 +499,12 @@ height: 446px;
 
 }
 
+body {
+
+  overflow-x: hidden;
+
+}
+
 
 
 }
