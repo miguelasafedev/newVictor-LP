@@ -347,42 +347,49 @@ setInterval(trocarGrupo, 7000);
 </script>
 
 <script>
-  const cards = document.querySelectorAll(".carrossel .card-services, .carrossel .card-services-off");
-const btnLeft = document.querySelector(".btn-left");
-const btnRight = document.querySelector(".btn-right");
+  function initCarrossel() {
+    const cards = document.querySelectorAll(".carrossel .card-services, .carrossel .card-services-off");
+    const btnLeft = document.querySelector(".btn-left");
+    const btnRight = document.querySelector(".btn-right");
 
-let currentIndex = 0; // índice inicial
+    let currentIndex = 0; // índice inicial
 
-function mostrarCards() {
-  cards.forEach((card, index) => {
-    if (index >= currentIndex && index < currentIndex + 3) {
-      card.classList.remove("card-services-off");
-      card.classList.add("card-services");
-    } else {
-      card.classList.remove("card-services");
-      card.classList.add("card-services-off");
+    function mostrarCards() {
+      cards.forEach((card, index) => {
+        if (index >= currentIndex && index < currentIndex + 3) {
+          card.classList.remove("card-services-off");
+          card.classList.add("card-services");
+        } else {
+          card.classList.remove("card-services");
+          card.classList.add("card-services-off");
+        }
+      });
     }
-  });
-}
 
-// Botão direita → avança
-btnRight.addEventListener("click", () => {
-  if (currentIndex < cards.length - 3) {
-    currentIndex++;
+    // Botão direita → avança
+    btnRight.addEventListener("click", () => {
+      if (currentIndex < cards.length - 3) {
+        currentIndex++;
+        mostrarCards();
+      }
+    });
+
+    // Botão esquerda → volta
+    btnLeft.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        mostrarCards();
+      }
+    });
+
+    // Inicializa
     mostrarCards();
   }
-});
 
-// Botão esquerda → volta
-btnLeft.addEventListener("click", () => {
-  if (currentIndex > 0) {
-    currentIndex--;
-    mostrarCards();
+  // ✅ Só ativa em telas de PC (exemplo: 1024px pra cima)
+  if (window.innerWidth >= 1024) {
+    initCarrossel();
   }
-});
-
-// Inicializa
-mostrarCards();
 </script>
 
 
