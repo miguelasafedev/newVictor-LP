@@ -505,12 +505,12 @@ height: 446px;
 
 }
 
-  html, body {
-    overflow-x: hidden;
-    width: 100%;
+html, body {
+
+  overflow-x: hidden;
+  width: 100%;
 
 }
-
 
 
 
