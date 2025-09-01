@@ -27,8 +27,8 @@
 .grid-avaliacoes {
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas fixas */
-  gap: 30px 40px; /* espaço entre os cards (linhas x colunas) */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px 40px; 
   max-width: 900px;
   margin: 0 auto;
   padding: 120px 0;
@@ -64,7 +64,7 @@
 .card-avaliacoes-off {
   
 
-  display: none; /* mantém fora do layout */
+  display: none; 
 
 }
 

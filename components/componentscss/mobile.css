@@ -128,17 +128,17 @@ display: none;
     margin-left: 20px;
     text-decoration: none;
     font-family: "Inter",sans-serif;
-    background: linear-gradient(90deg, #8A967E, #495943); /* Gradiente do fundo */
+    background: linear-gradient(90deg, #8A967E, #495943); 
     color: white !important;
     border: none;
-    border-radius: 25px; /* Deixa as bordas bem arredondadas */
+    border-radius: 25px; 
     width: 125px;
     height: 35px;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: transform 0.2s;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +148,7 @@ display: none;
 
 .button-home:hover {
 
-transform: scale(1.05); /* Efeito de leve aumento no hover */
+transform: scale(1.05); 
 
 }
 
@@ -166,9 +166,9 @@ transform: scale(0.95);
 
 .faixa-conteudo {
   max-width: 1200px;
-  margin: 0 auto; /* centraliza o conteúdo */
+  margin: 0 auto; 
   display: flex;
-  justify-content: space-around; /* ou use space-between */
+  justify-content: space-around; 
   align-items: center;
   flex-direction: column;
   gap: 30px;
@@ -372,8 +372,8 @@ transform: scale(0.95);
 .grid-avaliacoes {
 
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 colunas fixas */
-  gap: 20px 20px; /* espaço entre os cards (linhas x colunas) */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px 20px;
   max-width: 900px;
   margin: 0 auto;
   padding: 0px;
@@ -511,8 +511,6 @@ html, body {
   width: 100%;
 
 }
-
-
 
 
 }
